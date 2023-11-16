@@ -75,9 +75,7 @@ class Calc {
 
   static init = () => {
     this.#load()
-    setTimeout(() => {
-      this.#output()
-    }, 0)
+    this.#output()
     console.log('Calc is init')
   }
 }
